@@ -32,7 +32,7 @@ img { max-width: 100%; display: block; }
 a { color: var(--terracotta-dark); text-decoration: none; }
 a:hover { text-decoration: underline; }
 
-h1, h2, h3 { font-family: var(--font-display); font-weight: 600; line-height: 1.15; color: var(--navy); letter-spacing: -0.01em; }
+h1, h2, h3 { font-family: var(--font-display); font-weight: 600; line-height: 1.15; color: var(--navy); letter-spacing: -0.01em; text-wrap: balance; }
 h1 { font-size: clamp(2.2rem, 5vw, 3.6rem); }
 h2 { font-size: clamp(1.7rem, 3.5vw, 2.4rem); }
 h3 { font-size: 1.35rem; }
@@ -121,7 +121,7 @@ a.card { color: inherit; }
 
 /* Quote */
 .quote { max-width: 800px; margin: 0 auto; text-align: center; }
-.quote blockquote { font-family: var(--font-display); font-size: clamp(1.3rem, 2.6vw, 1.75rem); line-height: 1.45; color: var(--navy); }
+.quote blockquote { font-family: var(--font-display); font-size: clamp(1.3rem, 2.6vw, 1.75rem); line-height: 1.45; color: var(--navy); text-wrap: balance; }
 .quote cite { display: block; margin-top: 20px; font-style: normal; font-size: 0.95rem; color: var(--muted); font-weight: 600; }
 
 /* Testimonials */

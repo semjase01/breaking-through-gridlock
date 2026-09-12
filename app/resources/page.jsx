@@ -5,7 +5,7 @@ import ContactForm from "../../components/ContactForm";
 export const metadata = {
   title: "Resources",
   description:
-    "The Breaking Through Gridlock book, the Conversation Generator, videos, and community resources for #BreakingGridlock.",
+    "The Breaking Through Gridlock book, videos, and resources for #BreakingGridlock.",
 };
 
 const endorsements = [
@@ -49,12 +49,10 @@ export default function Resources() {
           <span className="eyebrow" style={{ color: "#e8a381" }}>Resources</span>
           <h1>Tools and stories for #BreakingGridlock</h1>
           <p className="lede">
-            The book, the Conversation Generator, videos, and a community of
-            people transforming stuck conversations.
+            The book, videos, and tools for transforming stuck conversations.
           </p>
           <div className="actions">
             <a href="#book" className="btn btn-primary">The Book</a>
-            <a href="#cg" className="btn btn-outline-light">Conversation Generator</a>
             <a href="#video" className="btn btn-outline-light">Videos</a>
           </div>
         </div>
@@ -109,6 +107,9 @@ export default function Resources() {
               <p style={{ marginTop: "6px", color: "var(--muted)", fontWeight: 600 }}>
                 The Power of Conversation in a Polarized World
               </p>
+              <p style={{ marginTop: "10px", color: "var(--terracotta-dark)", fontWeight: 700, letterSpacing: "0.04em" }}>
+                Over 150,000 copies sold
+              </p>
               <p style={{ marginTop: "18px" }}>
                 In <em>Breaking Through Gridlock</em>, authors Jason Jay and
                 Gabriel Grant share clear-cut and actionable pathways for
@@ -128,28 +129,6 @@ export default function Resources() {
                 ))}
               </div>
             </div>
-          </div>
-        </div>
-      </section>
-
-      <section className="section section-navy anchor-offset" id="cg">
-        <div className="container" style={{ textAlign: "center" }}>
-          <span className="eyebrow" style={{ color: "#e8a381" }}>Conversation Generator</span>
-          <h2>Transform your stuck conversation</h2>
-          <p className="lede" style={{ margin: "18px auto 0" }}>
-            Our interactive online tool will walk you through the process of
-            transforming your stuck conversation, and send you a customized
-            letter template to help you get started.
-          </p>
-          <div style={{ marginTop: "32px" }}>
-            <a
-              href="https://humanpartners.typeform.com/btgbot"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="btn btn-primary"
-            >
-              Transform Your Conversation
-            </a>
           </div>
         </div>
       </section>
@@ -195,33 +174,13 @@ export default function Resources() {
         </div>
       </section>
 
-      <section className="section section-alt">
+      <section className="section-tight section-alt">
         <div className="container">
-          <div style={{ textAlign: "center" }}>
-            <span className="eyebrow">Community</span>
-            <h2>#BreakingGridlock online</h2>
-          </div>
-          <div className="card-grid">
-            <a href="https://twitter.com/hashtag/BreakingGridlock" target="_blank" rel="noopener noreferrer" className="card">
-              <span className="kicker">Twitter / X</span>
-              <h3>#BreakingGridlock</h3>
-              <p>Follow and join the conversation online.</p>
-            </a>
-            <a href="https://www.facebook.com/groups/btgcommunity/" target="_blank" rel="noopener noreferrer" className="card">
-              <span className="kicker">Facebook</span>
-              <h3>Community Group</h3>
-              <p>A community of readers transforming their stuck conversations.</p>
-            </a>
-            <a href="https://www.facebook.com/groups/btgeducators/" target="_blank" rel="noopener noreferrer" className="card">
-              <span className="kicker">Facebook</span>
-              <h3>Educators Group</h3>
-              <p>Educators sharing practices for teaching Breaking Through Gridlock.</p>
-            </a>
-          </div>
-          <div className="logo-strip" style={{ marginTop: "48px" }}>
+          <div className="logo-strip" style={{ marginTop: 0 }}>
             <span>In use at: University of Michigan</span>
             <span>MIT Sloan School of Management</span>
             <span>Cornell University</span>
+            <span>Cambridge University</span>
             <span>Yale Center for Business and the Environment</span>
             <span>As seen at: Sustainable Brands</span>
             <span>CECP</span>

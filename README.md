@@ -29,7 +29,7 @@ For production, verify the domain in Resend and set `CONTACT_FROM_EMAIL` to some
 - `/organizations` — consulting for impact investors, purpose-driven businesses, NGOs
 - `/highered` — curriculum resources and institutional programs
 - `/speaking-consulting` — workshops and speaking
-- `/resources` — the book (`#book`), Conversation Generator (`#cg`), videos (`#video`), community
+- `/resources` — the book (`#book`) and videos (`#video`)
 - `/chapter-one` — free chapter preview signup
 
 URL paths match the old WordPress site, so existing links keep working.

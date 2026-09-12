@@ -24,13 +24,6 @@ export default function Footer() {
             <Link href="/resources#book">About the Book</Link>
             <Link href="/chapter-one">Free Chapter Preview</Link>
             <a href="https://www.amazon.com/Breaking-Through-Gridlock-Conversation-Polarized/dp/1626568952" target="_blank" rel="noopener noreferrer">Buy on Amazon</a>
-            <a href="https://humanpartners.typeform.com/btgbot" target="_blank" rel="noopener noreferrer">Conversation Generator</a>
-          </div>
-          <div>
-            <h4>Community</h4>
-            <a href="https://www.facebook.com/groups/btgcommunity/" target="_blank" rel="noopener noreferrer">Facebook Community</a>
-            <a href="https://www.facebook.com/groups/btgeducators/" target="_blank" rel="noopener noreferrer">Educators Group</a>
-            <a href="https://twitter.com/hashtag/BreakingGridlock" target="_blank" rel="noopener noreferrer">#BreakingGridlock</a>
           </div>
         </div>
         <div className="legal">
