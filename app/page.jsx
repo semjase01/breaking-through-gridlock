@@ -98,21 +98,34 @@ const news = [
 export default function Home() {
   return (
     <>
-      <section className="hero">
-        <div className="container">
-          <span className="eyebrow" style={{ color: "var(--orange-tint)" }}>
-            The Power of Conversation in a Polarized World · Over 150,000 copies sold
-          </span>
-          <h1>Break through your most challenging conversations.</h1>
-          <p className="lede">
-            Well-meaning attempts to effect change too often get stuck in the
-            noisy traffic jam of competing ideas, priorities, and ideologies.
-            We help people, organizations, and campuses transform paralysis
-            into positive change.
-          </p>
-          <div className="actions">
-            <Link href="/resources#book" className="btn btn-primary">Get the Book</Link>
-            <Link href="/#connect" className="btn btn-outline-light">Work With Us</Link>
+      <section className="hero hero-home">
+        <div className="container hero-grid">
+          <div className="hero-copy">
+            <span className="eyebrow" style={{ color: "var(--orange-tint)" }}>
+              The Power of Conversation in a Polarized World · Over 150,000 copies sold
+            </span>
+            <h1>Break through your most challenging conversations.</h1>
+            <p className="lede">
+              Well-meaning attempts to effect change too often get stuck in the
+              noisy traffic jam of competing ideas, priorities, and ideologies.
+              We help people, organizations, and campuses transform paralysis
+              into positive change.
+            </p>
+            <div className="actions">
+              <Link href="/resources#book" className="btn btn-primary">Get the Book</Link>
+              <Link href="/#connect" className="btn btn-outline-light">Work With Us</Link>
+            </div>
+          </div>
+          <div className="hero-book">
+            <Link href="/resources#book" aria-label="Breaking Through Gridlock, the book">
+              <Image
+                src="/images/book-cover.png"
+                alt="Breaking Through Gridlock: The Power of Conversation in a Polarized World, by Jason Jay and Gabriel Grant"
+                width={340}
+                height={459}
+                priority
+              />
+            </Link>
           </div>
         </div>
       </section>
