@@ -100,7 +100,7 @@ export default function Home() {
     <>
       <section className="hero">
         <div className="container">
-          <span className="eyebrow" style={{ color: "#e8a381" }}>
+          <span className="eyebrow" style={{ color: "var(--orange-tint)" }}>
             The Power of Conversation in a Polarized World · Over 150,000 copies sold
           </span>
           <h1>Break through your most challenging conversations.</h1>

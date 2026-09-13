@@ -46,7 +46,7 @@ export default function Resources() {
     <>
       <section className="hero">
         <div className="container">
-          <span className="eyebrow" style={{ color: "#e8a381" }}>Resources</span>
+          <span className="eyebrow" style={{ color: "var(--orange-tint)" }}>Resources</span>
           <h1>Tools and stories for #BreakingGridlock</h1>
           <p className="lede">
             The book, videos, and tools for transforming stuck conversations.
@@ -107,7 +107,7 @@ export default function Resources() {
               <p style={{ marginTop: "6px", color: "var(--muted)", fontWeight: 600 }}>
                 The Power of Conversation in a Polarized World
               </p>
-              <p style={{ marginTop: "10px", color: "var(--terracotta-dark)", fontWeight: 700, letterSpacing: "0.04em" }}>
+              <p style={{ marginTop: "10px", color: "var(--orange-dark)", fontWeight: 700, letterSpacing: "0.04em" }}>
                 Over 150,000 copies sold
               </p>
               <p style={{ marginTop: "18px" }}>

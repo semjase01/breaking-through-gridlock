@@ -44,7 +44,7 @@ export default function SpeakingConsulting() {
     <>
       <section className="hero">
         <div className="container">
-          <span className="eyebrow" style={{ color: "#e8a381" }}>Speaking &amp; Workshops</span>
+          <span className="eyebrow" style={{ color: "var(--orange-tint)" }}>Speaking &amp; Workshops</span>
           <h1>Communicate powerfully with anyone about what you value.</h1>
           <p className="lede">
             Our introductory Breaking Through Gridlock workshop is designed

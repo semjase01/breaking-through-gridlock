@@ -31,7 +31,7 @@ export default function HigherEd() {
     <>
       <section className="hero">
         <div className="container">
-          <span className="eyebrow" style={{ color: "#e8a381" }}>Higher Education</span>
+          <span className="eyebrow" style={{ color: "var(--orange-tint)" }}>Higher Education</span>
           <h1>Empower your students to turn polarization into innovation.</h1>
           <p className="lede">
             This semester, will you send your students out into the world to

@@ -55,7 +55,7 @@ export default function Organizations() {
     <>
       <section className="hero">
         <div className="container">
-          <span className="eyebrow" style={{ color: "#e8a381" }}>Organizations</span>
+          <span className="eyebrow" style={{ color: "var(--orange-tint)" }}>Organizations</span>
           <h1>Harness the tensions in purpose-driven work.</h1>
           <p className="lede">
             We combine years of consulting experience with the latest research
