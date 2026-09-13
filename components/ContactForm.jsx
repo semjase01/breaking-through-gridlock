@@ -57,9 +57,9 @@ export default function ContactForm({
             <label htmlFor="interest">I want to…</label>
             <select id="interest" name="interest" defaultValue={defaultInterest}>
               <option value="">Select one</option>
-              <option>Teach this at my higher education institution</option>
-              <option>Use this in my company or organization</option>
               <option>Book the authors for speaking or consulting</option>
+              <option>Use this in my company or organization</option>
+              <option>Teach this at my higher education institution</option>
             </select>
           </div>
         )}
